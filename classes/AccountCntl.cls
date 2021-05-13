@@ -4,7 +4,7 @@ public class AccountCntl {
         objacc = new Account();
         
     }
-    /* This comment is for testing and account data*/
+    /* This comment is for testing account data*/
     public void saveAccount(){
         if(objacc.Parentid!=null)
         {
