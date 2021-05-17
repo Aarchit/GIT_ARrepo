@@ -7,7 +7,7 @@ public void insertvalue(List<opportunity> opplist)
 Datainsert(opplist);
 } 
 
-// oppounity method
+// oppounity method - List <opportunity> opplist
 void Datainsert(List<opportunity> opplist)
 {
     List<opportunity> opp2 = new list <opportunity>();
