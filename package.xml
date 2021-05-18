@@ -1040,6 +1040,7 @@
         <members>LegalEntity.Name</members>
         <members>LegalEntity.OwnerId</members>
         <members>LegalEntity.Status</members>
+        <members>LineofBusiness__c.IndentityLOB__c</members>
         <members>Location.CloseDate</members>
         <members>Location.ConstructionEndDate</members>
         <members>Location.ConstructionStartDate</members>
@@ -1852,6 +1853,7 @@
         <members>LearningAssignmentProgress</members>
         <members>LearningLinkProgress</members>
         <members>LegalEntity</members>
+        <members>LineofBusiness__c</members>
         <members>Location</members>
         <members>Macro</members>
         <members>MacroAction</members>
@@ -1886,6 +1888,7 @@
         <members>Product2</members>
         <members>ProductConsumptionSchedule</members>
         <members>PromptAction</members>
+        <members>Prospect__c</members>
         <members>QuickText</members>
         <members>QuickTextUsage</members>
         <members>Recommendation</members>
