@@ -924,6 +924,7 @@
         <members>FinanceTransaction.TaxAmount</members>
         <members>FinanceTransaction.TotalAmountWithTax</members>
         <members>FinanceTransaction.TransactionDate</members>
+        <members>HealthPortal__c.HealthInsurance__c</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
         <members>Image.AlternateText</members>
@@ -1842,6 +1843,7 @@
         <members>FeedItem</members>
         <members>FinanceBalanceSnapshot</members>
         <members>FinanceTransaction</members>
+        <members>HealthPortal__c</members>
         <members>Idea</members>
         <members>Image</members>
         <members>Individual</members>
