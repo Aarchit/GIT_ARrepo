@@ -2,6 +2,7 @@
     <version>49.0</version>
     <types>
         <members>AccountCntl</members>
+        <members>AccountHandler</members>
         <members>ContactNameUpdate</members>
         <members>MySampleApexClass</members>
         <members>MySampleApexClass2</members>
