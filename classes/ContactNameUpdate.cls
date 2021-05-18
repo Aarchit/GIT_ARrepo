@@ -1,5 +1,5 @@
 public class ContactNameUpdate {
-    // Method to handle the contact inserts.
+    // webhook test.
     public static void contactMethod(List<Account> accList){
         List<Contact> conList = new List<Contact>();
         for(Account acc : accList) {
