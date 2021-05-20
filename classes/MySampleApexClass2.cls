@@ -11,7 +11,7 @@ public class MySampleApexClass2 {
       myValue = myValue+10;
       return myValue;
    }
-
+// getCalculatedValueViaPrice
    public static Double getCalculatedValueViaPrice (Decimal price) {
       // Method definition and body
       // do some calculation
