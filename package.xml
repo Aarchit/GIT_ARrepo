@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>52.0</version>
     <types>
+        <members>AccountCntl</members>
         <members>AccountHandler</members>
         <members>AccountUtils</members>
         <members>AddContactsAccounts1</members>
         <members>Batch_AddConToAcc</members>
         <members>ContactListController</members>
+        <members>ContactNameUpdate</members>
         <members>MySampleApexClass</members>
+        <members>MySampleApexClass2</members>
+        <members>MySampleApexClass3</members>
         <members>ParentChild</members>
+        <members>accountPhoneUpdate</members>
+        <members>handlerclass2</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -16,10 +22,12 @@
     </types>
     <types>
         <members>AccountDeletion</members>
+        <members>ContactPhoneUpdate</members>
         <members>DmlTriggerBulk</members>
         <members>MyTriggerBulk</members>
         <members>SendEmailTrigger</members>
         <members>SoqlTriggerBulk</members>
+        <members>wed</members>
         <name>ApexTrigger</name>
     </types>
     <types>
@@ -53,29 +61,6 @@
     <types>
         <members>Internal Zone</members>
         <name>Community</name>
-    </types>
-    <types>
-        <members>standard__AllTabSet</members>
-        <members>standard__AppLauncher</members>
-        <members>standard__Chatter</members>
-        <members>standard__Community</members>
-        <members>standard__Content</members>
-        <members>standard__Insights</members>
-        <members>standard__LightningBolt</members>
-        <members>standard__LightningInstrumentation</members>
-        <members>standard__LightningSales</members>
-        <members>standard__LightningSalesConsole</members>
-        <members>standard__LightningScheduler</members>
-        <members>standard__LightningService</members>
-        <members>standard__Marketing</members>
-        <members>standard__Platform</members>
-        <members>standard__QueueManagement</members>
-        <members>standard__Sales</members>
-        <members>standard__SalesforceCMS</members>
-        <members>standard__Service</members>
-        <members>standard__ServiceConsole</members>
-        <members>standard__Sites</members>
-        <name>CustomApplication</name>
     </types>
     <types>
         <members>Account.AccountNumber</members>
@@ -1714,6 +1699,12 @@
         <members>SkillRequirement.RelatedRecordId</members>
         <members>SkillRequirement.SkillId</members>
         <members>SkillRequirement.SkillLevel</members>
+        <members>Skill__c.Added_Skills__c</members>
+        <members>Skill__c.Email__c</members>
+        <members>Skill__c.New_Skills_Added__c</members>
+        <members>Skill_req__c.Data_Mining__c</members>
+        <members>Skill_req__c.Requirement__c</members>
+        <members>Skill_req__c.Skills__c</members>
         <members>SocialPersona.ExternalId</members>
         <members>SocialPersona.ExternalPictureURL</members>
         <members>SocialPersona.Name</members>
@@ -1979,6 +1970,7 @@
         <members>PaymentGroup</members>
         <members>PaymentLineInvoice</members>
         <members>PaymentMethod</members>
+        <members>PendingServiceRouting__c</members>
         <members>Price__c</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
@@ -2016,6 +2008,8 @@
         <members>SessionHijackingEventStore</members>
         <members>Site</members>
         <members>SkillRequirement</members>
+        <members>Skill__c</members>
+        <members>Skill_req__c</members>
         <members>SocialPersona</members>
         <members>Solution</members>
         <members>StreamActivityAccess</members>
@@ -2024,6 +2018,7 @@
         <members>TimeSlot</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
+        <members>Total_book__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <members>WorkOrder</members>
@@ -2041,128 +2036,24 @@
         <members>Machine__c-en_US</members>
         <members>Member__c-en_US</members>
         <members>Metro__c-en_US</members>
+        <members>PendingServiceRouting__c-en_US</members>
         <members>Price__c-en_US</members>
         <members>Prospect__c-en_US</members>
+        <members>Skill__c-en_US</members>
+        <members>Skill_req__c-en_US</members>
+        <members>Total_book__c-en_US</members>
         <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>Skill__c</members>
+        <members>Skill_req__c</members>
+        <name>CustomTab</name>
     </types>
     <types>
         <members>Account.Standard_Account_Duplicate_Rule</members>
         <members>Contact.Standard_Contact_Duplicate_Rule</members>
         <members>Lead.Standard_Lead_Duplicate_Rule</members>
         <name>DuplicateRule</name>
-    </types>
-    <types>
-        <members>Account</members>
-        <members>AccountIntelligence</members>
-        <members>Actions</members>
-        <members>Activities</members>
-        <members>Address</members>
-        <members>Analytics</members>
-        <members>Apex</members>
-        <members>AppAnalytics</members>
-        <members>AppExperience</members>
-        <members>Archive</members>
-        <members>Blockchain</members>
-        <members>Bot</members>
-        <members>BusinessHours</members>
-        <members>Campaign</members>
-        <members>Case</members>
-        <members>Chatter</members>
-        <members>ChatterEmailsMD</members>
-        <members>Commerce</members>
-        <members>Communities</members>
-        <members>Company</members>
-        <members>ConnectedApp</members>
-        <members>Content</members>
-        <members>Contract</members>
-        <members>ConversationalIntelligence</members>
-        <members>Currency</members>
-        <members>CustomerDataPlatform</members>
-        <members>DataDotCom</members>
-        <members>Deployment</members>
-        <members>DevHub</members>
-        <members>Discovery</members>
-        <members>DocumentChecklist</members>
-        <members>EAC</members>
-        <members>EmailAdministration</members>
-        <members>EmailIntegration</members>
-        <members>EmailTemplate</members>
-        <members>EmployeeFieldAccess</members>
-        <members>EmployeeUser</members>
-        <members>EncryptionKey</members>
-        <members>EnhancedNotes</members>
-        <members>Entitlement</members>
-        <members>Essentials</members>
-        <members>Event</members>
-        <members>ExperienceBundle</members>
-        <members>ExternalServices</members>
-        <members>FieldService</members>
-        <members>FileUploadAndDownloadSecurity</members>
-        <members>FilesConnect</members>
-        <members>Flow</members>
-        <members>Forecasting</members>
-        <members>Formula</members>
-        <members>GoogleApps</members>
-        <members>Ideas</members>
-        <members>Industries</members>
-        <members>InvocableAction</members>
-        <members>IsvHammer</members>
-        <members>Knowledge</members>
-        <members>Language</members>
-        <members>LeadConfig</members>
-        <members>LightningExperience</members>
-        <members>LiveAgent</members>
-        <members>LiveMessage</members>
-        <members>Macro</members>
-        <members>MailMerge</members>
-        <members>Meetings</members>
-        <members>Mobile</members>
-        <members>MyDomain</members>
-        <members>Name</members>
-        <members>Notifications</members>
-        <members>ObjectLinking</members>
-        <members>OmniChannel</members>
-        <members>Opportunity</members>
-        <members>Order</members>
-        <members>OrderManagement</members>
-        <members>Org</members>
-        <members>Pardot</members>
-        <members>PardotEinstein</members>
-        <members>PartyDataModel</members>
-        <members>PathAssistant</members>
-        <members>Picklist</members>
-        <members>PlatformEncryption</members>
-        <members>Portals</members>
-        <members>PredictionBuilder</members>
-        <members>Privacy</members>
-        <members>Product</members>
-        <members>QuickText</members>
-        <members>Quote</members>
-        <members>RealTimeEvent</members>
-        <members>RecommendationBuilder</members>
-        <members>RecordPage</members>
-        <members>RetailExecution</members>
-        <members>Schema</members>
-        <members>Search</members>
-        <members>Security</members>
-        <members>ServiceCloudVoice</members>
-        <members>ServiceSetupAssistant</members>
-        <members>Sharing</members>
-        <members>Site</members>
-        <members>SocialProfile</members>
-        <members>SourceTracking</members>
-        <members>Survey</members>
-        <members>SystemNotification</members>
-        <members>Territory2</members>
-        <members>Trailhead</members>
-        <members>TrialOrg</members>
-        <members>UserEngagement</members>
-        <members>UserInterface</members>
-        <members>UserManagement</members>
-        <members>Voice</members>
-        <members>WebToX</members>
-        <members>WorkDotCom</members>
-        <name>EinsteinAgentSettings</name>
     </types>
     <types>
         <members>unfiled$public/MarketingProductInquiryResponse</members>
@@ -2297,6 +2188,7 @@
         <members>PaymentGatewayLog-Payment Gateway Log Layout</members>
         <members>PaymentGroup-Payment Group Layout</members>
         <members>PaymentLineInvoice-Payment Line Invoice Layout</members>
+        <members>PendingServiceRouting__c-PendingServiceRouting Layout</members>
         <members>Price__c-Price Layout</members>
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
@@ -2325,10 +2217,13 @@
         <members>ServiceTerritoryMember-Service Territory Member Layout</members>
         <members>SessionHijackingEventStore-Session Hijacking Event Store Layout</members>
         <members>SkillRequirement-Skill Requirement Layout</members>
+        <members>Skill__c-Skill Layout</members>
+        <members>Skill_req__c-Skill req Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
         <members>TimeSlot-Time Slot Layout</members>
+        <members>Total_book__c-Book Layout</members>
         <members>User-User Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
@@ -2453,6 +2348,8 @@
         <members>ServiceResource.My_ServiceResources</members>
         <members>ServiceTerritory.All_ServiceTerritories</members>
         <members>ServiceTerritory.My_ServiceTerritories</members>
+        <members>Skill__c.All</members>
+        <members>Skill_req__c.All</members>
         <members>SocialPersona.AllSocialPersonas</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
@@ -2524,6 +2421,7 @@
         <members>Partner Community User</members>
         <members>PlatformPortal</members>
         <members>Read Only</members>
+        <members>ReadOnly</members>
         <members>Silver Partner User</members>
         <members>SolutionManager</members>
         <members>Standard</members>
@@ -2601,6 +2499,119 @@
     </types>
     <types>
         <members>Account</members>
+        <members>AccountIntelligence</members>
+        <members>Actions</members>
+        <members>Activities</members>
+        <members>Address</members>
+        <members>Analytics</members>
+        <members>Apex</members>
+        <members>AppAnalytics</members>
+        <members>AppExperience</members>
+        <members>Archive</members>
+        <members>Blockchain</members>
+        <members>Bot</members>
+        <members>BusinessHours</members>
+        <members>Campaign</members>
+        <members>Case</members>
+        <members>Chatter</members>
+        <members>ChatterEmailsMD</members>
+        <members>Commerce</members>
+        <members>Communities</members>
+        <members>Company</members>
+        <members>ConnectedApp</members>
+        <members>Content</members>
+        <members>Contract</members>
+        <members>ConversationalIntelligence</members>
+        <members>Currency</members>
+        <members>CustomerDataPlatform</members>
+        <members>DataDotCom</members>
+        <members>Deployment</members>
+        <members>DevHub</members>
+        <members>Discovery</members>
+        <members>DocumentChecklist</members>
+        <members>EAC</members>
+        <members>EmailAdministration</members>
+        <members>EmailIntegration</members>
+        <members>EmailTemplate</members>
+        <members>EmployeeFieldAccess</members>
+        <members>EmployeeUser</members>
+        <members>EncryptionKey</members>
+        <members>EnhancedNotes</members>
+        <members>Entitlement</members>
+        <members>Essentials</members>
+        <members>Event</members>
+        <members>ExperienceBundle</members>
+        <members>ExternalServices</members>
+        <members>FieldService</members>
+        <members>FileUploadAndDownloadSecurity</members>
+        <members>FilesConnect</members>
+        <members>Flow</members>
+        <members>Forecasting</members>
+        <members>Formula</members>
+        <members>GoogleApps</members>
+        <members>Ideas</members>
+        <members>Industries</members>
+        <members>InvocableAction</members>
+        <members>IsvHammer</members>
+        <members>Knowledge</members>
+        <members>Language</members>
+        <members>LeadConfig</members>
+        <members>LightningExperience</members>
+        <members>LiveAgent</members>
+        <members>LiveMessage</members>
+        <members>Macro</members>
+        <members>MailMerge</members>
+        <members>Meetings</members>
+        <members>Mobile</members>
+        <members>MyDomain</members>
+        <members>Name</members>
+        <members>Notifications</members>
+        <members>ObjectLinking</members>
+        <members>OmniChannel</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>OrderManagement</members>
+        <members>Org</members>
+        <members>Pardot</members>
+        <members>PardotEinstein</members>
+        <members>PartyDataModel</members>
+        <members>PathAssistant</members>
+        <members>Picklist</members>
+        <members>PlatformEncryption</members>
+        <members>Portals</members>
+        <members>PredictionBuilder</members>
+        <members>Privacy</members>
+        <members>Product</members>
+        <members>QuickText</members>
+        <members>Quote</members>
+        <members>RealTimeEvent</members>
+        <members>RecommendationBuilder</members>
+        <members>RecordPage</members>
+        <members>RetailExecution</members>
+        <members>Schema</members>
+        <members>Search</members>
+        <members>Security</members>
+        <members>ServiceCloudVoice</members>
+        <members>ServiceSetupAssistant</members>
+        <members>Sharing</members>
+        <members>Site</members>
+        <members>SocialProfile</members>
+        <members>SourceTracking</members>
+        <members>Survey</members>
+        <members>SystemNotification</members>
+        <members>Territory2</members>
+        <members>Trailhead</members>
+        <members>TrialOrg</members>
+        <members>UserEngagement</members>
+        <members>UserInterface</members>
+        <members>UserManagement</members>
+        <members>Voice</members>
+        <members>WebToX</members>
+        <members>WorkDotCom</members>
+        <name>Settings</name>
+    </types>
+    <types>
+        <members>Account</members>
         <members>ActiveScratchOrg</members>
         <members>ActivityRecurrence2</members>
         <members>ActivityRecurrence2Exception</members>
@@ -2659,6 +2670,7 @@
         <members>Order</members>
         <members>OrgDeleteRequest</members>
         <members>PartyConsent</members>
+        <members>PendingServiceRouting__c</members>
         <members>Price__c</members>
         <members>ProcessException</members>
         <members>Product2</members>
@@ -2677,9 +2689,12 @@
         <members>ServiceResource</members>
         <members>ServiceTerritory</members>
         <members>SiqUserBlacklist</members>
+        <members>Skill__c</members>
+        <members>Skill_req__c</members>
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
         <members>TodayGoal</members>
+        <members>Total_book__c</members>
         <members>User</members>
         <members>UserAppMenuCustomization</members>
         <members>UserEmailPreferredPerson</members>
@@ -2688,6 +2703,12 @@
         <members>WorkType</members>
         <members>WorkTypeGroup</members>
         <name>SharingRules</name>
+    </types>
+    <types>
+        <members>Doctor</members>
+        <members>Dummy</members>
+        <members>Painter</members>
+        <name>Skill</name>
     </types>
     <types>
         <members>AccountContactRole</members>
@@ -2760,6 +2781,7 @@
         <members>Metro__c</members>
         <members>Opportunity</members>
         <members>Order</members>
+        <members>PendingServiceRouting__c</members>
         <members>Price__c</members>
         <members>Prospect__c</members>
         <members>ResourceAbsence</members>
@@ -2771,8 +2793,11 @@
         <members>ServiceResourceSkill</members>
         <members>ServiceTerritory</members>
         <members>ServiceTerritoryMember</members>
+        <members>Skill__c</members>
+        <members>Skill_req__c</members>
         <members>Solution</members>
         <members>Task</members>
+        <members>Total_book__c</members>
         <members>WorkOrder</members>
         <members>WorkOrderLineItem</members>
         <name>TopicsForObjects</name>
