@@ -1,4 +1,4 @@
-// new class
+// new class Accountutil()
 public class AccountUtils {
    //  accountsByState method to Accountutil class
     public static List<Account> accountsByState (String accountState){
