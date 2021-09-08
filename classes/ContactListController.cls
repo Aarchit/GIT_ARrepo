@@ -1,4 +1,4 @@
-// Apex class - Controler - 1 sep 2021 - New class
+// Apex class - Controler - 1 sep 2021 - New classss
 public class ContactListController {
     @AuraEnabled
     public static List<Contact> getContactList(List<Id> accountIds) {
