@@ -1,6 +1,5 @@
-// Apex Controller for Contact List Lightning Components - New Component 
+// Apex class - Controler - 1 sep 2021
 public class ContactListController {
-         // getContactList Method
     @AuraEnabled
     public static List<Contact> getContactList(List<Id> accountIds) {
         // Getting the list of contacts from where Id is in accountIds
