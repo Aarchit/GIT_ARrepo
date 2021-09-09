@@ -1,5 +1,6 @@
+// This is a batch job in apex class - 9th sep 2021
 global class Batch_AddConToAcc implements Database.Batchable <sObject> {
-    // new list of contact object
+   // new chnages
     List<contact> lstCon = new List<Contact>();
     
     global Database.QueryLocator start(Database.BatchableContext bc) {
