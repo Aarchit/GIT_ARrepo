@@ -1,4 +1,4 @@
-// This is a batch job in apex class - 9th sep 2021
+// There is a new method in batch apex class - 28 sep 2021
 global class Batch_AddConToAcc implements Database.Batchable <sObject> {
    // new chnages
     List<contact> lstCon = new List<Contact>();
