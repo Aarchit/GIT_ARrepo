@@ -41,7 +41,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Field_Update__c</field>
+                <field>number_of_contacts__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

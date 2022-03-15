@@ -1,3 +1,5 @@
+// Doing a small chnage
+
 Public class handlerclass2
 {
 public void insertvalue(List<opportunity> opplist)
@@ -5,6 +7,7 @@ public void insertvalue(List<opportunity> opplist)
 Datainsert(opplist);
 } 
 
+// oppounity method - List <opportunity> opplist
 void Datainsert(List<opportunity> opplist)
 {
     List<opportunity> opp2 = new list <opportunity>();

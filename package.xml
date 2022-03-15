@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>49.0</version>
+    <version>52.0</version>
     <types>
         <members>AccountCntl</members>
+        <members>AccountHandler</members>
+        <members>AccountUtils</members>
+        <members>AddContactsAccounts1</members>
+        <members>Batch_AddConToAcc</members>
+        <members>ContactListController</members>
+        <members>ContactNameUpdate</members>
         <members>MySampleApexClass</members>
         <members>MySampleApexClass2</members>
         <members>MySampleApexClass3</members>
+        <members>ParentChild</members>
         <members>accountPhoneUpdate</members>
         <members>handlerclass2</members>
         <name>ApexClass</name>
@@ -14,7 +21,12 @@
         <name>ApexEmailNotifications</name>
     </types>
     <types>
+        <members>AccountDeletion</members>
         <members>ContactPhoneUpdate</members>
+        <members>DmlTriggerBulk</members>
+        <members>MyTriggerBulk</members>
+        <members>SendEmailTrigger</members>
+        <members>SoqlTriggerBulk</members>
         <members>wed</members>
         <name>ApexTrigger</name>
     </types>
@@ -51,29 +63,6 @@
         <name>Community</name>
     </types>
     <types>
-        <members>standard__AllTabSet</members>
-        <members>standard__AppLauncher</members>
-        <members>standard__Chatter</members>
-        <members>standard__Community</members>
-        <members>standard__Content</members>
-        <members>standard__Insights</members>
-        <members>standard__LightningBolt</members>
-        <members>standard__LightningInstrumentation</members>
-        <members>standard__LightningSales</members>
-        <members>standard__LightningSalesConsole</members>
-        <members>standard__LightningScheduler</members>
-        <members>standard__LightningService</members>
-        <members>standard__Marketing</members>
-        <members>standard__Platform</members>
-        <members>standard__QueueManagement</members>
-        <members>standard__Sales</members>
-        <members>standard__SalesforceCMS</members>
-        <members>standard__Service</members>
-        <members>standard__ServiceConsole</members>
-        <members>standard__Sites</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
@@ -85,7 +74,6 @@
         <members>Account.Description</members>
         <members>Account.DunsNumber</members>
         <members>Account.Fax</members>
-        <members>Account.Field_Update__c</members>
         <members>Account.Industry</members>
         <members>Account.Jigsaw</members>
         <members>Account.NaicsCode</members>
@@ -112,9 +100,25 @@
         <members>Account.UpsellOpportunity__c</members>
         <members>Account.Website</members>
         <members>Account.YearStarted</members>
+        <members>Account.number_of_contacts__c</members>
         <members>AccountCleanInfo.Industry</members>
         <members>AccountCleanInfo.Ownership</members>
         <members>AccountContactRole.Role</members>
+        <members>ActiveScratchOrg.Description</members>
+        <members>ActiveScratchOrg.Edition</members>
+        <members>ActiveScratchOrg.ExpirationDate</members>
+        <members>ActiveScratchOrg.Features</members>
+        <members>ActiveScratchOrg.Id</members>
+        <members>ActiveScratchOrg.LastLoginDate</members>
+        <members>ActiveScratchOrg.Name</members>
+        <members>ActiveScratchOrg.Namespace</members>
+        <members>ActiveScratchOrg.OrgName</members>
+        <members>ActiveScratchOrg.ScratchOrg</members>
+        <members>ActiveScratchOrg.ScratchOrgInfoId</members>
+        <members>ActiveScratchOrg.SignupEmail</members>
+        <members>ActiveScratchOrg.SignupInstance</members>
+        <members>ActiveScratchOrg.SignupTrialDays</members>
+        <members>ActiveScratchOrg.SignupUsername</members>
         <members>ActivityRecurrence2Exception.Type</members>
         <members>AlternativePaymentMethod.AccountId</members>
         <members>AlternativePaymentMethod.AuditEmail</members>
@@ -144,6 +148,12 @@
         <members>ApiAnomalyEventStore.Uri</members>
         <members>ApiAnomalyEventStore.UserAgent</members>
         <members>ApiAnomalyEventStore.UserId</members>
+        <members>AppointmentTopicTimeSlot.AppointmentTopicTimeSlotKey</members>
+        <members>AppointmentTopicTimeSlot.Name</members>
+        <members>AppointmentTopicTimeSlot.OperatingHoursId</members>
+        <members>AppointmentTopicTimeSlot.TimeSlotId</members>
+        <members>AppointmentTopicTimeSlot.WorkTypeGroupId</members>
+        <members>AppointmentTopicTimeSlot.WorkTypeId</members>
         <members>Asset.AccountId</members>
         <members>Asset.AssetLevel</members>
         <members>Asset.AssetProvidedById</members>
@@ -188,6 +198,7 @@
         <members>AssetAction.Amount</members>
         <members>AssetAction.AssetId</members>
         <members>AssetAction.Category</members>
+        <members>AssetAction.CategoryEnum</members>
         <members>AssetAction.EstimatedTaxChange</members>
         <members>AssetAction.MrrChange</members>
         <members>AssetAction.ProductAmountChange</members>
@@ -346,6 +357,7 @@
         <members>CardPaymentMethod.GatewayResultCodeDescription</members>
         <members>CardPaymentMethod.GatewayToken</members>
         <members>CardPaymentMethod.GatewayTokenDetails</members>
+        <members>CardPaymentMethod.GatewayTokenEncrypted</members>
         <members>CardPaymentMethod.InputCardNumber</members>
         <members>CardPaymentMethod.IpAddress</members>
         <members>CardPaymentMethod.MacAddress</members>
@@ -387,7 +399,6 @@
         <members>Case.ServiceContractId</members>
         <members>Case.SlaExitDate</members>
         <members>Case.SlaStartDate</members>
-        <members>Case.Solution_Tier__c</members>
         <members>Case.SourceId</members>
         <members>Case.Status</members>
         <members>Case.StopStartDate</members>
@@ -776,6 +787,7 @@
         <members>DigitalWallet.Email</members>
         <members>DigitalWallet.GatewayToken</members>
         <members>DigitalWallet.GatewayTokenDetails</members>
+        <members>DigitalWallet.GatewayTokenEncrypted</members>
         <members>DigitalWallet.IpAddress</members>
         <members>DigitalWallet.MacAddress</members>
         <members>DigitalWallet.NickName</members>
@@ -947,6 +959,7 @@
         <members>FinanceTransaction.TaxAmount</members>
         <members>FinanceTransaction.TotalAmountWithTax</members>
         <members>FinanceTransaction.TransactionDate</members>
+        <members>HealthPortal__c.HealthInsurance__c</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
         <members>Image.AlternateText</members>
@@ -981,6 +994,7 @@
         <members>Individual.SendIndividualData</members>
         <members>Individual.ShouldForget</members>
         <members>Individual.Website</members>
+        <members>Information__c.Metro__c</members>
         <members>Invoice.BillToContactId</members>
         <members>Invoice.BillingAccountId</members>
         <members>Invoice.Description</members>
@@ -1063,6 +1077,7 @@
         <members>LegalEntity.Name</members>
         <members>LegalEntity.OwnerId</members>
         <members>LegalEntity.Status</members>
+        <members>LineofBusiness__c.IndentityLOB__c</members>
         <members>Location.CloseDate</members>
         <members>Location.ConstructionEndDate</members>
         <members>Location.ConstructionStartDate</members>
@@ -1084,12 +1099,17 @@
         <members>Location.RemodelStartDate</members>
         <members>Location.RootLocationId</members>
         <members>Location.TimeZone</members>
+        <members>Machine__c.Data_Processed__c</members>
+        <members>Machine__c.Data_pending__c</members>
         <members>Macro.Description</members>
         <members>Macro.IsAlohaSupported</members>
         <members>Macro.IsLightningSupported</members>
         <members>Macro.Name</members>
         <members>Macro.OwnerId</members>
         <members>Macro.StartingContext</members>
+        <members>Member__c.ExpiryDate__c</members>
+        <members>Member__c.LineofBusiness__c</members>
+        <members>Member__c.MemberID__c</members>
         <members>MessagingEndUser.AccountId</members>
         <members>MessagingEndUser.ContactId</members>
         <members>MessagingEndUser.HasInitialResponseSent</members>
@@ -1121,6 +1141,7 @@
         <members>MessagingSession.PreviewDetails</members>
         <members>MessagingSession.StartTime</members>
         <members>MessagingSession.Status</members>
+        <members>NamespaceRegistry.NamespacePrefix</members>
         <members>OperatingHours.Description</members>
         <members>OperatingHours.Name</members>
         <members>OperatingHours.TimeZone</members>
@@ -1315,6 +1336,7 @@
         <members>PaymentLineInvoice.AssociatedPaymentLineId</members>
         <members>PaymentLineInvoice.Comments</members>
         <members>PaymentLineInvoice.Date</members>
+        <members>PaymentLineInvoice.EffectiveDate</members>
         <members>PaymentLineInvoice.EffectiveImpactAmount</members>
         <members>PaymentLineInvoice.HasBeenUnapplied</members>
         <members>PaymentLineInvoice.ImpactAmount</members>
@@ -1328,6 +1350,8 @@
         <members>PaymentMethod.CompanyName</members>
         <members>PaymentMethod.NickName</members>
         <members>PaymentMethod.Status</members>
+        <members>Price__c.NewPrice__c</members>
+        <members>Price__c.Old_price__c</members>
         <members>Pricebook2.Description</members>
         <members>Pricebook2.IsActive</members>
         <members>Pricebook2.IsStandard</members>
@@ -1534,6 +1558,36 @@
         <members>ScorecardMetric.Name</members>
         <members>ScorecardMetric.ReportId</members>
         <members>ScorecardMetric.ScorecardId</members>
+        <members>ScratchOrgInfo.AdminEmail</members>
+        <members>ScratchOrgInfo.AuthCode</members>
+        <members>ScratchOrgInfo.ConnectedAppCallbackUrl</members>
+        <members>ScratchOrgInfo.ConnectedAppConsumerKey</members>
+        <members>ScratchOrgInfo.Country</members>
+        <members>ScratchOrgInfo.DeletedBy</members>
+        <members>ScratchOrgInfo.DeletedDate</members>
+        <members>ScratchOrgInfo.Description</members>
+        <members>ScratchOrgInfo.Edition</members>
+        <members>ScratchOrgInfo.ErrorCode</members>
+        <members>ScratchOrgInfo.ExpirationDate</members>
+        <members>ScratchOrgInfo.Features</members>
+        <members>ScratchOrgInfo.Instance</members>
+        <members>ScratchOrgInfo.Language</members>
+        <members>ScratchOrgInfo.LastLoginDate</members>
+        <members>ScratchOrgInfo.Name</members>
+        <members>ScratchOrgInfo.Namespace</members>
+        <members>ScratchOrgInfo.OrgName</members>
+        <members>ScratchOrgInfo.Package2AncestorIds</members>
+        <members>ScratchOrgInfo.Release</members>
+        <members>ScratchOrgInfo.ScratchOrg</members>
+        <members>ScratchOrgInfo.SignupCountry</members>
+        <members>ScratchOrgInfo.SignupEmail</members>
+        <members>ScratchOrgInfo.SignupInstance</members>
+        <members>ScratchOrgInfo.SignupLanguage</members>
+        <members>ScratchOrgInfo.SignupTrialDays</members>
+        <members>ScratchOrgInfo.SignupUsername</members>
+        <members>ScratchOrgInfo.SourceOrg</members>
+        <members>ScratchOrgInfo.Status</members>
+        <members>ScratchOrgInfo.Username</members>
         <members>ServiceAppointment.AccountId</members>
         <members>ServiceAppointment.ActualDuration</members>
         <members>ServiceAppointment.ActualEndTime</members>
@@ -1541,6 +1595,7 @@
         <members>ServiceAppointment.AdditionalInformation</members>
         <members>ServiceAppointment.Address</members>
         <members>ServiceAppointment.AppointmentType</members>
+        <members>ServiceAppointment.ApptBookingInfoUrl</members>
         <members>ServiceAppointment.ArrivalWindowEndTime</members>
         <members>ServiceAppointment.ArrivalWindowStartTime</members>
         <members>ServiceAppointment.CancellationReason</members>
@@ -1553,6 +1608,7 @@
         <members>ServiceAppointment.EarliestStartTime</members>
         <members>ServiceAppointment.Email</members>
         <members>ServiceAppointment.IsAnonymousBooking</members>
+        <members>ServiceAppointment.IsOffsiteAppointment</members>
         <members>ServiceAppointment.OwnerId</members>
         <members>ServiceAppointment.ParentRecordId</members>
         <members>ServiceAppointment.ParentRecordStatusCategory</members>
@@ -1643,7 +1699,6 @@
         <members>SkillRequirement.RelatedRecordId</members>
         <members>SkillRequirement.SkillId</members>
         <members>SkillRequirement.SkillLevel</members>
-        <members>SkillRequirement.Skill__c</members>
         <members>Skill__c.Added_Skills__c</members>
         <members>Skill__c.Email__c</members>
         <members>Skill__c.New_Skills_Added__c</members>
@@ -1799,10 +1854,12 @@
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
+        <members>ActiveScratchOrg</members>
         <members>Activity</members>
         <members>ActivityRecurrence2Exception</members>
         <members>AlternativePaymentMethod</members>
         <members>ApiAnomalyEventStore</members>
+        <members>AppointmentTopicTimeSlot</members>
         <members>Asset</members>
         <members>AssetAction</members>
         <members>AssetActionSource</members>
@@ -1815,6 +1872,7 @@
         <members>AuthorizationFormConsent</members>
         <members>AuthorizationFormDataUse</members>
         <members>AuthorizationFormText</members>
+        <members>Billingdata__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>CardPaymentMethod</members>
@@ -1864,9 +1922,11 @@
         <members>FeedItem</members>
         <members>FinanceBalanceSnapshot</members>
         <members>FinanceTransaction</members>
+        <members>HealthPortal__c</members>
         <members>Idea</members>
         <members>Image</members>
         <members>Individual</members>
+        <members>Information__c</members>
         <members>Invoice</members>
         <members>InvoiceLine</members>
         <members>Lead</members>
@@ -1875,14 +1935,22 @@
         <members>LearningAssignmentProgress</members>
         <members>LearningLinkProgress</members>
         <members>LegalEntity</members>
+        <members>LineofBusiness__c</members>
         <members>Location</members>
+        <members>MLModel</members>
+        <members>MLModelFactor</members>
+        <members>MLModelFactorComponent</members>
+        <members>Machine__c</members>
         <members>Macro</members>
         <members>MacroAction</members>
         <members>MacroInstruction</members>
         <members>MacroUsage</members>
         <members>ManagedContentVersion</members>
+        <members>Member__c</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
+        <members>Metro__c</members>
+        <members>NamespaceRegistry</members>
         <members>OperatingHours</members>
         <members>Opportunity</members>
         <members>OpportunityCompetitor</members>
@@ -1903,12 +1971,15 @@
         <members>PaymentLineInvoice</members>
         <members>PaymentMethod</members>
         <members>PendingServiceRouting__c</members>
+        <members>Price__c</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>ProcessException</members>
         <members>Product2</members>
         <members>ProductConsumptionSchedule</members>
         <members>PromptAction</members>
+        <members>PromptError</members>
+        <members>Prospect__c</members>
         <members>QuickText</members>
         <members>QuickTextUsage</members>
         <members>Recommendation</members>
@@ -1926,6 +1997,7 @@
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
+        <members>ScratchOrgInfo</members>
         <members>ServiceAppointment</members>
         <members>ServiceContract</members>
         <members>ServiceResource</members>
@@ -1957,7 +2029,16 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Billingdata__c-en_US</members>
+        <members>HealthPortal__c-en_US</members>
+        <members>Information__c-en_US</members>
+        <members>LineofBusiness__c-en_US</members>
+        <members>Machine__c-en_US</members>
+        <members>Member__c-en_US</members>
+        <members>Metro__c-en_US</members>
         <members>PendingServiceRouting__c-en_US</members>
+        <members>Price__c-en_US</members>
+        <members>Prospect__c-en_US</members>
         <members>Skill__c-en_US</members>
         <members>Skill_req__c-en_US</members>
         <members>Total_book__c-en_US</members>
@@ -2004,6 +2085,14 @@
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>New_flow</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>New_flow</members>
+        <name>FlowDefinition</name>
+    </types>
+    <types>
         <members>DE Default</members>
         <name>HomePageLayout</name>
     </types>
@@ -2028,6 +2117,7 @@
         <members>AuthorizationFormConsent-Authorization Form Consent Layout</members>
         <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
         <members>AuthorizationFormText-Authorization Form Text Layout</members>
+        <members>Billingdata__c-Billingdata Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>CardPaymentMethod-Card Payment Method Layout</members>
@@ -2067,8 +2157,10 @@
         <members>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</members>
         <members>FinanceTransaction-Finance Transaction Layout</members>
         <members>Global-Global Layout</members>
+        <members>HealthPortal__c-HealthPortal Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Individual-Individual Layout</members>
+        <members>Information__c-Information Layout</members>
         <members>Invoice-Invoice Layout</members>
         <members>InvoiceLine-Invoice Line Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
@@ -2076,7 +2168,11 @@
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
         <members>LegalEntity-Legal Entity Layout</members>
+        <members>LineofBusiness__c-LineofBusiness Layout</members>
+        <members>Machine__c-Machine Layout</members>
         <members>Macro-Macro Layout</members>
+        <members>Member__c-Member Layout</members>
+        <members>Metro__c-Metro Layout</members>
         <members>OperatingHours-Operating Hours Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
@@ -2093,11 +2189,13 @@
         <members>PaymentGroup-Payment Group Layout</members>
         <members>PaymentLineInvoice-Payment Line Invoice Layout</members>
         <members>PendingServiceRouting__c-PendingServiceRouting Layout</members>
+        <members>Price__c-Price Layout</members>
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>ProcessException-Process Exception Layout</members>
         <members>Product2-Product Layout</members>
         <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
+        <members>Prospect__c-Prospect Layout</members>
         <members>QuickText-Quick Text Layout</members>
         <members>Refund-Refund Layout</members>
         <members>RefundLinePayment-Refund Line Payment Layout</members>
@@ -2143,6 +2241,8 @@
         <members>Account.NewLastWeek</members>
         <members>Account.NewThisWeek</members>
         <members>Account.PlatinumandGoldSLACustomers</members>
+        <members>ActiveScratchOrg.All_Active_Scratch_Orgs</members>
+        <members>ActiveScratchOrg.My_Active_Scratch_Orgs</members>
         <members>Activity.AllActivities</members>
         <members>Activity.MyActivities</members>
         <members>Activity.TodaysTasks</members>
@@ -2192,6 +2292,11 @@
         <members>DigitalWallet.DigitalWallet</members>
         <members>EngagementChannelType.All_EngagementChannelTypes</members>
         <members>Entitlement.All_Entitlements</members>
+        <members>Event.MyRecentEvents</members>
+        <members>Event.MyTeamsRecentEvents</members>
+        <members>Event.MyTeamsUpcomingEvents</members>
+        <members>Event.MyUpcomingEvents</members>
+        <members>Event.TodaysAgenda</members>
         <members>FinanceBalanceSnapshot.mine</members>
         <members>FinanceTransaction.mine</members>
         <members>Idea.Ideas_Last_7_Days</members>
@@ -2203,6 +2308,7 @@
         <members>Lead.ViewCustom2</members>
         <members>LegalEntity.mine</members>
         <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
+        <members>NamespaceRegistry.All_Namespace_Registries</members>
         <members>OperatingHours.All_OperatingHours</members>
         <members>Opportunity.AllOpportunities</members>
         <members>Opportunity.ClosingNextMonth</members>
@@ -2232,6 +2338,8 @@
         <members>ReturnOrder.My_ReturnOrders</members>
         <members>Scorecard.AllScorecards</members>
         <members>Scorecard.MyScorecards</members>
+        <members>ScratchOrgInfo.All_Scratch_Org_Infos</members>
+        <members>ScratchOrgInfo.My_Scratch_Org_Infos</members>
         <members>ServiceAppointment.All_ServiceAppointments</members>
         <members>ServiceAppointment.MyPendingAppointments</members>
         <members>ServiceAppointment.MyScheduledAppointments</members>
@@ -2298,6 +2406,7 @@
         <members>Customer Community User</members>
         <members>Customer Portal Manager Custom</members>
         <members>Customer Portal Manager Standard</members>
+        <members>External Apps Login User</members>
         <members>External Identity User</members>
         <members>Force%2Ecom - App Subscription User</members>
         <members>Force%2Ecom - Free User</members>
@@ -2311,6 +2420,7 @@
         <members>Partner Community Login User</members>
         <members>Partner Community User</members>
         <members>PlatformPortal</members>
+        <members>Read Only</members>
         <members>ReadOnly</members>
         <members>Silver Partner User</members>
         <members>SolutionManager</members>
@@ -2395,6 +2505,7 @@
         <members>Address</members>
         <members>Analytics</members>
         <members>Apex</members>
+        <members>AppAnalytics</members>
         <members>AppExperience</members>
         <members>Archive</members>
         <members>Blockchain</members>
@@ -2404,6 +2515,7 @@
         <members>Case</members>
         <members>Chatter</members>
         <members>ChatterEmailsMD</members>
+        <members>Commerce</members>
         <members>Communities</members>
         <members>Company</members>
         <members>ConnectedApp</members>
@@ -2421,6 +2533,8 @@
         <members>EmailAdministration</members>
         <members>EmailIntegration</members>
         <members>EmailTemplate</members>
+        <members>EmployeeFieldAccess</members>
+        <members>EmployeeUser</members>
         <members>EncryptionKey</members>
         <members>EnhancedNotes</members>
         <members>Entitlement</members>
@@ -2446,6 +2560,8 @@
         <members>LiveAgent</members>
         <members>LiveMessage</members>
         <members>Macro</members>
+        <members>MailMerge</members>
+        <members>Meetings</members>
         <members>Mobile</members>
         <members>MyDomain</members>
         <members>Name</members>
@@ -2468,12 +2584,15 @@
         <members>Product</members>
         <members>QuickText</members>
         <members>Quote</members>
+        <members>RealTimeEvent</members>
+        <members>RecommendationBuilder</members>
         <members>RecordPage</members>
         <members>RetailExecution</members>
         <members>Schema</members>
         <members>Search</members>
         <members>Security</members>
         <members>ServiceCloudVoice</members>
+        <members>ServiceSetupAssistant</members>
         <members>Sharing</members>
         <members>Site</members>
         <members>SocialProfile</members>
@@ -2493,6 +2612,7 @@
     </types>
     <types>
         <members>Account</members>
+        <members>ActiveScratchOrg</members>
         <members>ActivityRecurrence2</members>
         <members>ActivityRecurrence2Exception</members>
         <members>AlternativePaymentMethod</members>
@@ -2503,6 +2623,7 @@
         <members>AuthorizationForm</members>
         <members>AuthorizationFormConsent</members>
         <members>AuthorizationFormDataUse</members>
+        <members>Billingdata__c</members>
         <members>CalendarModel</members>
         <members>CalendarView</members>
         <members>Campaign</members>
@@ -2527,32 +2648,42 @@
         <members>FinanceTransaction</members>
         <members>FlowInterview</members>
         <members>FlowInterviewLog</members>
+        <members>HealthPortal__c</members>
         <members>Image</members>
         <members>Individual</members>
+        <members>Information__c</members>
         <members>Invoice</members>
         <members>Lead</members>
         <members>LegalEntity</members>
+        <members>LineofBusiness__c</members>
         <members>ListEmail</members>
         <members>Location</members>
+        <members>Machine__c</members>
         <members>Macro</members>
         <members>MacroUsage</members>
+        <members>Member__c</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
+        <members>Metro__c</members>
         <members>NotifDeliveryUserPref</members>
         <members>Opportunity</members>
         <members>Order</members>
         <members>OrgDeleteRequest</members>
         <members>PartyConsent</members>
         <members>PendingServiceRouting__c</members>
+        <members>Price__c</members>
         <members>ProcessException</members>
         <members>Product2</members>
         <members>PromptAction</members>
+        <members>PromptError</members>
+        <members>Prospect__c</members>
         <members>QuickText</members>
         <members>QuickTextUsage</members>
         <members>RecordMergeHistory</members>
         <members>ReportResultBlob</members>
         <members>ReturnOrder</members>
         <members>Scorecard</members>
+        <members>ScratchOrgInfo</members>
         <members>ServiceAppointment</members>
         <members>ServiceContract</members>
         <members>ServiceResource</members>
@@ -2634,16 +2765,25 @@
     <types>
         <members>Account</members>
         <members>Asset</members>
+        <members>Billingdata__c</members>
         <members>Campaign</members>
         <members>Case</members>
         <members>Contact</members>
         <members>ContentDocument</members>
         <members>Contract</members>
         <members>Event</members>
+        <members>HealthPortal__c</members>
+        <members>Information__c</members>
         <members>Lead</members>
+        <members>LineofBusiness__c</members>
+        <members>Machine__c</members>
+        <members>Member__c</members>
+        <members>Metro__c</members>
         <members>Opportunity</members>
         <members>Order</members>
         <members>PendingServiceRouting__c</members>
+        <members>Price__c</members>
+        <members>Prospect__c</members>
         <members>ResourceAbsence</members>
         <members>ResourcePreference</members>
         <members>ReturnOrder</members>

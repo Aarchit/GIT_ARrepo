@@ -171,6 +171,11 @@
             <sortOrder>3</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
+            <actionName>NewCase</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>4</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>NewNote</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>5</sortOrder>
@@ -189,11 +194,6 @@
             <actionName>FeedItem.PollPost</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>8</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>NewCase</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>4</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>FeedItem.QuestionPost</actionName>

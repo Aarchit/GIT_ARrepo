@@ -20,6 +20,12 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>ActiveScratchOrg</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Activity</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
@@ -82,6 +88,12 @@
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>AuthorizationFormText</name>
             <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>Billingdata__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
@@ -254,6 +266,12 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>HealthPortal__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Idea</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
@@ -262,6 +280,12 @@
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Individual</name>
             <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>Information__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
@@ -278,14 +302,32 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>LineofBusiness__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>ListEmail</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>Machine__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Macro</name>
             <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>Member__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
@@ -297,6 +339,18 @@
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>MessagingSession</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>Metro__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>NamespaceRegistry</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
@@ -326,7 +380,7 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>PendingServiceRouting__c</name>
+            <name>Price__c</name>
             <resultsPerPageCount>0</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
@@ -350,6 +404,12 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>Prospect__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>QuickText</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
@@ -368,19 +428,13 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>ScratchOrgInfo</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>ServiceContract</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>Skill__c</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>Skill_req__c</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
@@ -388,12 +442,6 @@
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Solution</name>
             <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>Total_book__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>

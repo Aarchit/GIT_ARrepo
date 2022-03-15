@@ -143,18 +143,6 @@
         <fullName>SkillLevel</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <fields>
-        <fullName>Skill__c</fullName>
-        <deleteConstraint>Restrict</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Skill</label>
-        <referenceTo>Skill__c</referenceTo>
-        <relationshipLabel>Skill Requirements</relationshipLabel>
-        <relationshipName>Skill_Requirements</relationshipName>
-        <required>true</required>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>

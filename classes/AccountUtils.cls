@@ -1,7 +1,9 @@
-// new class Accountutil()
+// new class
 public class AccountUtils {
    //  accountsByState method to Accountutil class
     public static List<Account> accountsByState (String accountState){
+       
+       // ne change
         
         List<Account> searchedResults = [SELECT Name FROM Account WHERE BillingState= :accountState];
         

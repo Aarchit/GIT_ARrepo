@@ -22,10 +22,6 @@
                 <behavior>Edit</behavior>
                 <field>SkillLevel</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>Skill__c</field>
-            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>

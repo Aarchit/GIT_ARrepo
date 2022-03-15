@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Machine</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Machines</value>
+    </caseValues>
+    <fields>
+        <label><!-- Data Processed --></label>
+        <name>Data_Processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data pending --></label>
+        <name>Data_pending__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

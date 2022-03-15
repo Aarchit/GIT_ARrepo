@@ -1,4 +1,5 @@
 public class accountPhoneUpdate {
+// creating accountMethod
 public static void accountMethod(List<Account>aclist,map<id,account> oldmap){
     set<id> accountId=new set<id>();
     for(Account ac:aclist){
